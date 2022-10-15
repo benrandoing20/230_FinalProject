@@ -1,2 +1,2 @@
 # 230_FinalProject
-Aastha, Anirudh, and I are enhancing melanoma classifiers
+Aastha, Anirudh, and Ben are enhancing melanoma classifiers
