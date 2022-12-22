@@ -65,6 +65,23 @@ following structure:
    truth .csv labels. 
 
 
-## 
+## Training the Model
+The Baseline model is an InceptionV3 network. The rmsprop optimizer is 
+implemented and data is shuffled at random. The Baseline_Melanoma jupyter 
+notebook allows you to make slight modifications to the optimizer, 
+batch_normalization batch size, evaluation metrics, and data imported. 
+
+# Detailed Information About the project and Code
+
+Please refer to the CS 230 Final Report and Final Video for the most up-to-date documentation of the processes of the code. 
+
+# MIT License
+Copyright (c) [2022] [Benjamin Alexander Randoing & Aastha Jhunjhunwala & Anirudh Rao]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
