@@ -39,10 +39,31 @@ mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 6. use git clone to clone the repository onto your device. Since the data 
    is absent from this repository, there are two approaches to obtaining 
-   data for training the model detiled below. 
+   data for training the model detailed below. 
+7. Type `jupyter notebook` and navigate in an internet window to the 
+   established port for the jupyter notebook setup ie: 34.219.244.118:8888
 
+## Repository Setup Locally or with Google Colab
+1. First we recommend creating a virtual environment with `python3 -m venv 
+   venv` and `source venv/bin/activate`
+2. Using git clone, make a copy of the repository on your machine. 
+3. Type `pip3 install jupyter` to be able to open the .ipynb filee
+4. The jupyter notebook installs the requirements on each iteration; however, 
+   you may also use `pip3 install` to install the packages to not need to 
+   re-install each time you run the jupyter notebook. 
 
 ## Data Structure in Directory
+
+The directory should contain a folder entitled data within which the 
+following structure:
+
+1. Create a `data/` folder with `mkdir data` in the directory
+2. Create `data/train`, `data/valid`, `data/test` subdirectories. 
+3. Within each of the subdirectories, there should be a `malignant/` and 
+   `benign/` folder. 
+4. The code implementation accesses these directories to create the ground 
+   truth .csv labels. 
+
 
 ## 
 
